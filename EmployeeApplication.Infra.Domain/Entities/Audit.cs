@@ -11,7 +11,7 @@ namespace EmployeeApplication.Infra.Domain.Entities
         public DateTime CreatedOn { get; set; }
         public DateTime UpdatedOn { get; set; }
         public bool IsDeleted { get; set; }
-        public bool IsUpdated { get; set; }
+
 
 
     }
