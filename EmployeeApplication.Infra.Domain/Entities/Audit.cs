@@ -12,7 +12,7 @@ namespace EmployeeApplication.Infra.Domain.Entities
         public DateTime UpdatedOn { get; set; }
         public bool IsDeleted { get; set; }
 
-
+        public bool IsRitik { get; set; }
 
     }
 }
