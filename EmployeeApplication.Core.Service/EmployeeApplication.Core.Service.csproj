@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeApplication.Core.Builder\EmployeeApplication.Core.Builder.csproj" />
+    <ProjectReference Include="..\EmployeeApplication.Core.contract\EmployeeApplication.Core.Contract.csproj" />
+    <ProjectReference Include="..\EmployeeApplication.Infra.Contract\EmployeeApplication.Infra.Contract.csproj" />
+    <ProjectReference Include="..\EmployeeApplication.Infra.Repository\EmployeeApplication.Infra.Repository.csproj" />
+    <ProjectReference Include="..\EmployeeApplication.Shared\EmployeeApplication.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
